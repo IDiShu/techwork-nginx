@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Технические работы</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Внимание! Проводятся технические работы</h1>
+        <p>Извините за временные неудобства. Мы работаем над улучшением сервиса.</p>
+        <img src="https://exaple.gif" alt="Технические работы">
+        <audio controls autoplay volume="0.2" hidden loop id="audioPlayer">
+            <source src="https://exaple.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <script>
+        document.getElementById("audioPlayer").volume = 0; // Устанавливаем громкость на минимальное значение (выключаем звук)
+    </script>
+</body>
+</html>
