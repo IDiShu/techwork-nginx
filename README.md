@@ -1,2 +1,2 @@
 # techwork-nginx
-nginx-config-techwork
+Index.html for tech time out
